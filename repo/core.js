@@ -1,7 +1,7 @@
 // A $( document ).ready() block.
 
     /*global $:true, opener: true */
-MacamediaAPI = (function () {
+MediaAPI = (function () {
         var doc,
             body,
             container,

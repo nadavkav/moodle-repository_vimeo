@@ -17,7 +17,7 @@
 /**
  * Plugin capabilities.
  *
- * @package    repository_macamvimeo
+ * @package    repository_vimeo
  * @copyright  2009 Dan Poltawski <talktodan@gmail.com>
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  *
@@ -31,7 +31,7 @@ defined('MOODLE_INTERNAL') || die();
 
 $capabilities = array(
 
-    'repository/macamvimeo:view' => array(
+    'repository/vimeo:view' => array(
         'captype' => 'read',
         'contextlevel' => CONTEXT_MODULE,
         'archetypes' => array(

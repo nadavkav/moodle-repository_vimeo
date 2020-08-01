@@ -1,10 +1,10 @@
 <?php
 
-$string['pluginname'] = 'Macamvimeo';
+$string['pluginname'] = 'vimeo';
 $string['client_id'] = 'Client Identifier';
 $string['client_pass'] = 'Client Secret';
 $string['token'] = 'Token';
-$string['macamvimeo:view'] = 'View Macamvimeo repository';
+$string['vimeo:view'] = 'View vimeo repository';
 $string['configplugin'] = 'Configure Vimeo Portal';
 $string['vimeolink'] = 'Insert Vimeo Link';
 $string['vimeo_insert_link_title'] = 'Please Insert Vimeo Link';

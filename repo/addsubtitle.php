@@ -19,9 +19,9 @@ $video_subtitle_name = $_FILES["filesubtitle"]["name"];
 $videoId = $_POST["videoId"];
 
 
-$clientId   = trim(get_config('macamvimeo', 'client_id'));
-$clientPass = trim(get_config('macamvimeo', 'client_pass'));
-$token      = trim(get_config('macamvimeo', 'token'));
+$clientId   = trim(get_config('vimeo', 'client_id'));
+$clientPass = trim(get_config('vimeo', 'client_pass'));
+$token      = trim(get_config('vimeo', 'token'));
 
 $vimeoHelper = new Vimeo\Vimeo ( $clientId, $clientPass, $token  );
 

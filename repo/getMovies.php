@@ -13,9 +13,9 @@ require_once ('Vimeo/Vimeo.php');
 global $USER;
 $username = $USER->username;
 
-$clientId   = trim(get_config('macamvimeo', 'client_id'));
-$clientPass = trim(get_config('macamvimeo', 'client_pass'));
-$token      = trim(get_config('macamvimeo', 'token'));
+$clientId   = trim(get_config('vimeo', 'client_id'));
+$clientPass = trim(get_config('vimeo', 'client_pass'));
+$token      = trim(get_config('vimeo', 'token'));
 
 $vimeoHelper = new Vimeo\Vimeo ( $clientId, $clientPass, $token  );
 $getAllVideosCall = NULL;

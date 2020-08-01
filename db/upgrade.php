@@ -20,7 +20,7 @@ defined('MOODLE_INTERNAL') || die();
  * @param int $oldversion the version we are upgrading from
  * @return bool result
  */
-function xmldb_repository_macamvimeo_upgrade($oldversion) {
+function xmldb_repository_vimeo_upgrade($oldversion) {
 
     // Moodle v2.8.0 release upgrade line.
     // Put any upgrade step following this.

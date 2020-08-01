@@ -15,11 +15,11 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * This plugin is used to access macamvimeo items
- * Macamvimeo Repository Plugin
+ * This plugin is used to access vimeo items
+ * vimeo Repository Plugin
  *
  * @since 2.0
- * @package    repository_macamvimeo
+ * @package    repository_vimeo
  * @copyright  2017 Mofet
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
@@ -28,7 +28,7 @@
 global $CFG;
 require_once($CFG->dirroot . '/repository/lib.php');
 
-class repository_macamvimeo extends repository {
+class repository_vimeo extends repository {
     public function __construct($repositoryid, $context = SYSCONTEXTID, $options = array()) {
         parent::__construct($repositoryid, $context, $options);
 
@@ -51,7 +51,7 @@ class repository_macamvimeo extends repository {
         $search->id   = 'search';
         $search->name = 's';
 
-        $search->label = "<iframe scrolling=\"no\" frameBorder=\"0\" src=\"{$CFG->wwwroot}/repository/macamvimeo/repo/dialog.php?repo_id={$this->id}&course={$COURSE->idnumber}\" height=\"1700\" width=\"560\"></iframe>";
+        $search->label = "<iframe scrolling=\"no\" frameBorder=\"0\" src=\"{$CFG->wwwroot}/repository/vimeo/repo/dialog.php?repo_id={$this->id}&course={$COURSE->idnumber}\" height=\"1700\" width=\"560\"></iframe>";
 
         $sort = new stdClass();
         $sort->type = 'hidden';
@@ -103,8 +103,8 @@ class repository_macamvimeo extends repository {
 
     public static function type_config_form($mform, $classname = 'repository') {
         parent::type_config_form($mform, $classname);
-        $mform->addElement('text', 'client_id', get_string('client_id', 'repository_macamvimeo'));
-        $mform->addElement('text', 'client_pass', get_string('client_pass', 'repository_macamvimeo'));
-        $mform->addElement('text', 'token', get_string('token', 'repository_macamvimeo'));
+        $mform->addElement('text', 'client_id', get_string('client_id', 'repository_vimeo'));
+        $mform->addElement('text', 'client_pass', get_string('client_pass', 'repository_vimeo'));
+        $mform->addElement('text', 'token', get_string('token', 'repository_vimeo'));
     }
 }
