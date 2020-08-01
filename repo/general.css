@@ -1,0 +1,78 @@
+
+input{
+    padding: 5px;
+}
+input#link_vimeo{
+    width: 48%;
+}
+#vimeo-details{
+    margin-top: 15px;
+    display:inline-block;
+}
+
+#drop_zone {
+    border: 2px dashed #bbb;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    padding-top: 60px;
+    text-align: center;
+    font: 20pt bold 'Helvetica';
+    color: #bbb;
+    height:140px;
+}
+#progress-container {
+    -webkit-box-shadow: none;
+    box-shadow: inset none;
+    display:none;
+    margin-top: 10px;
+}
+.progress{
+    margin-bottom: 0;
+}
+.txt_mov{
+    display: block;
+    margin-top: 5px;
+}
+div.vimeo_movie {
+    /* To correctly align image, regardless of content height: */
+    vertical-align: top;
+    display: inline-block;
+    /* To horizontally center images and caption */
+    text-align: center;
+    /* The width of the container also implies margin around the images. */
+    width: 102px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+#my_movies{
+    margin-top: 20px;
+}
+
+.alert-success {
+    margin: 0;
+    margin-top: 13px;
+}
+#loader-mov{
+    text-align: center;
+    padding: 116px;
+}
+input#search_video {
+    width: 400px;
+    margin: 11px;
+    padding: 5px;
+    font-size: 19px;
+}
+.vimeo_movie img{
+    border-radius:50%;
+}
+.vimeo_movie:hover
+{
+    -webkit-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    transform: scale(0.8);
+}
+#vimeo_desc{
+    margin-top: 20px;
+    min-width: 305px;
+}
