@@ -5,7 +5,7 @@ The Vimeo Anywhere Repository plugin for Moodle allows users to Insert a video l
 ## Requirements
 * Moodle 2.4 or greater
 * Internet access
-* Vimeo Filter <--- required dependency !!
+* Vimeo Filter <--- required dependency !! (https://github.com/nadavkav/moodle-filter_vimeo)
 * Vimeo Anywhere Repository for Moodle 2.4 and above
 
 ## Installation
